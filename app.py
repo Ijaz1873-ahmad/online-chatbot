@@ -40,7 +40,7 @@ def encode_chunks(model, chunks):
 
 # Function to initialize the Gemini model
 def initialize_gemini(API_KEY):
-    return GeminiModel(api_key=API_KEY, model_name="gemini-1.5-flash")
+    return GeminiModel(api_key=API_KEY, model_name="gemini-2.5-flash")
 
 # Function to display chat history
 def display_chat():
